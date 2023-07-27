@@ -548,12 +548,9 @@ img {
 /* review area css */
 
 #review_area {
-    padding-bottom: 230px;
+    padding-bottom: 227px;
 }
 
-#review_area .review_heading {
-    margin-bottom: 130px;
-}
 
 #review_area .review_heading p {
     width: 620px;
