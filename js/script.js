@@ -9,5 +9,8 @@ $('.review_slider_part').slick({
     slidesToShow: 3,
     arrows: true,
     prevArrow: '<a href="#" class="left_arrow"><i class="fa-solid fa-angle-left"></i></a>',
-    nextArrow: '<a href="#" class="right_arrow"><i class="fa-solid fa-angle-right"></i></a>'
+    nextArrow: '<a href="#" class="right_arrow"><i class="fa-solid fa-angle-right"></i></a>',
+    centerMode: true,
+    centerPadding: '0',
+    autoplay: true
 });
