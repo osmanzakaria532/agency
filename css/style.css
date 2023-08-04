@@ -43,6 +43,29 @@ img {
 }
 
 
+.title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title h2 {
+    color: #151515;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px !important;
+}
+
+.title p {
+    color: #737373;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
 /*  */
 
 .navbar {
@@ -85,21 +108,23 @@ img {
     position: relative;
 }
 
+#banner_area  .banner_slider_area .banner_slider_padding {
+    padding: 400px 0;
+}
+
 #banner_area  .banner_slider_area .banner_slider_1 {
     background-image: url(../images/agenc-Banner\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 400px 0;
-    /* object-fit: cover; */
 }
+
 
 #banner_area  .banner_slider_area .banner_slider_2 {
     background-image: url(../images/bennar-2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 400px 0;
 }
 
 #banner_area  .banner_slider_area .banner_slider_3 {
@@ -107,7 +132,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 400px 0;
 }
 
 #banner_area  .banner_slider_area .banner_slider_4 {
@@ -115,7 +139,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 400px 0;
 }
 
 #banner_area .banner_slider_area {
@@ -165,7 +188,7 @@ img {
     text-align: center;
 }
 
-#banner_area .overlay .container .row .col-lg-12 .banner_content h1 {
+#banner_area .overlay .banner_content h1 {
     color: #FFF;
     font-family: Inter;
     font-size: 75px;
@@ -176,10 +199,8 @@ img {
     margin: 0 auto;
 } 
 
-#banner_area .overlay .container .row .col-lg-12 .banner_content p {
+#banner_area .overlay .banner_content p {
     color: #FFF;
-    
-    /* Paragraph  */
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -190,7 +211,7 @@ img {
     padding: 50px 0 40px;
 }
 
-#banner_area .overlay .container .row .col-lg-12 .banner_content a {
+#banner_area .overlay .banner_content a {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -278,36 +299,9 @@ img {
     padding: 150px 100px;
 }
 
-/* service, portfolio review's some css together */
-
-#service_area .service_heading,
-#portfolio_area .portfolio_heading,
-#review_area .review_heading {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-#service_area .service_heading h2,
-#portfolio_area .portfolio_heading h2,
-#review_area .review_heading h2 {
-    color: #151515;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-#service_area .service_heading p,
-#portfolio_area .portfolio_heading p,
-#review_area .review_heading p {
-    color: #737373;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+#service_area .title p{ 
     width: 610px;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 #service_area .service_items .row {
@@ -374,7 +368,12 @@ img {
 
 #portfolio_area {
     background-color: #F3F3F3;
-    padding: 150px;
+    padding: 150px 0;
+}
+
+#portfolio_area .title p{ 
+    width: 620px;
+    margin: 0 auto;
 }
 
 #portfolio_area .portfolio_items .row {
@@ -443,9 +442,20 @@ img {
     padding: 150px 0 100px;
 }
 
-#choice_area .choice_heading {
+#choice_area .title{ 
     padding-bottom: 140px;
 }
+
+#choice_area .title h2 { 
+    width: 518px;
+    margin: 0 auto;
+}
+
+#choice_area .title p { 
+    width: 802px;
+    margin: 0 auto;
+}
+
 
 #choice_area .choice_heading h2 {
     color: #151515;
@@ -514,8 +524,9 @@ img {
 }
 
 
-#review_area .review_heading p {
+#review_area .title p {
     width: 620px;
+    margin: 0 auto;
 }
 
 #review_area .review_slider_part .slick-list {
