@@ -254,5 +254,138 @@
         width: auto;
     }
 
+    #review_area .review_content {
+        padding: 40px 20px;
+        transform: translate(1);
+        -webkit-transform: translate(1);
+        -moz-transform: translate(1);
+        -ms-transform: translate(1);
+        -o-transform: translate(1);
+}
+
+    #review_area .review_text p {
+        font-size: 15px;
+        width: auto;
+    }
+
+    #review_area .review_slider_part .slick-list {
+        padding: 30px 0 !important;
+    }
+
+    #review_area .review_slider.slick-center {
+        background-color: #F4EFEF;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+    
+    .review_slider_part .left_arrow i {
+        background-color: transparent;
+        border: 2px solid #4756DF;
+        color: #4756DF;
+        top: 100%;
+        left: 40%;
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        
+    }
+
+    .review_slider_part .right_arrow i {
+        background-color: transparent;
+        border: 2px solid #4756DF;
+        color: #4756DF;
+        top: 100%;
+        right: 40%;
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+
+    /*  */
+
+    #get_area {
+        padding: 80px 15px;
+    }
+
+    #get_area .get_text h4 {
+        font-size: 25px;
+        width: auto;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    #get_area .get_text p {
+        font-size: 18px;
+        width: auto;
+        text-align: center;
+    }
+
+    #get_area .get_form_bg {
+        margin-top: 25px;
+        padding: 30px 20px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        width: auto;
+    }
+
+    #get_area .get_form_heading h6 {
+        font-size: 22px;
+    }
+
+    #get_area .get_form_bg .get_form .form-label {
+        margin-bottom: 6px;
+    }
+
+    #get_area .get_form_bg .get_form input {
+        padding: 10px 16px;
+    }
+
+    #get_area .get_form_bg .btn {
+        padding: 10px 0;
+    }
+
+    #footer_area {
+        padding: 100px 20px 33px;
+    }
+
+    #footer_area .footer_logo img {
+        margin: auto;
+    }
+
+    #footer_area .footer_text {
+        margin-bottom: 20px;
+    }
+
+    #footer_area .footer_text p {
+        width: auto;
+        text-align: center;
+    }
+
+    #footer_area .footer_menu {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    #footer_area .footer_menu ul h6 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    #footer_area .footer_menu ul li {
+        margin-bottom: 10px;
+    }
 
 }
