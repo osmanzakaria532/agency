@@ -12,7 +12,7 @@ $('.review_slider_part').slick({
     nextArrow: '<a href="#" class="right_arrow"><i class="fa-solid fa-angle-right"></i></a>',
     centerMode: true,
     centerPadding: '0',
-    autoplay: false,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 992,
