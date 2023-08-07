@@ -12,16 +12,17 @@ $('.review_slider_part').slick({
     nextArrow: '<a href="#" class="right_arrow"><i class="fa-solid fa-angle-right"></i></a>',
     centerMode: true,
     centerPadding: '0',
-    autoplay: true,
+    autoplay: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1
         }
       },
       {
-        breakpoint: 767,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
