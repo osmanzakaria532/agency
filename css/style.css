@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
@@ -188,20 +192,23 @@ img {
     text-align: center;
 }
 
+#banner_area .overlay .banner_content {
+    overflow: hidden;
+}
+
 #banner_area .overlay .banner_content h1 {
     color: #FFF;
-    font-family: Inter;
     font-size: 75px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%; 
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
+    overflow: hidden;
 } 
 
 #banner_area .overlay .banner_content p {
     color: #FFF;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -213,7 +220,6 @@ img {
 
 #banner_area .overlay .banner_content a {
     color: #FFF;
-    font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
